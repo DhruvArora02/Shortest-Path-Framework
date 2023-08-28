@@ -1,11 +1,3 @@
-// --== CS400 File Header Information ==--
-// Name: Dhruv Arora
-// Email: darora25@wisc.edu
-// Group and Team: AA blue
-// Group TA: Rachit Tibdewal
-// Lecturer: Gary Dahl
-// Notes to Grader: <optional extra notes>
-
 import java.util.PriorityQueue;
 
 import org.junit.jupiter.api.Assertions;
