@@ -35,7 +35,7 @@ public class BaseGraph <NodeType, EdgeType extends Number> {
 
     
     /**
-     * Insert a new node into the graph.
+     * Inserts a new node into the graph.
      * 
      * @param data is the data item stored in the new node
      * @return true if the data is unique and can be inserted into a new node,
@@ -49,8 +49,8 @@ public class BaseGraph <NodeType, EdgeType extends Number> {
     }
     
     /**
-     * Remove a node from the graph.
-     * And also remove all edges adjacent to that node.
+     * Removes a node from the graph.
+     * And also removes all edges adjacent to that node.
      * 
      * @param data is the data item stored in the node to be removed
      * @return true if a vertex with data is found and removed, or
@@ -71,7 +71,7 @@ public class BaseGraph <NodeType, EdgeType extends Number> {
     }
 
     /**
-     * Check whether the graph contains a node with the provided data.
+     * Checks whether the graph contains a node with the provided data.
      * 
      * @param data the node contents to check for
      * @return true if data item is stored in a node within the graph, or
@@ -82,7 +82,7 @@ public class BaseGraph <NodeType, EdgeType extends Number> {
     }
     
     /**
-     * Return the number of nodes in the graph
+     * Returns the number of nodes in the graph
      * 
      * @return the number of nodes in the graph
      */
@@ -91,7 +91,7 @@ public class BaseGraph <NodeType, EdgeType extends Number> {
     }
 
     /**
-     * Insert a new directed edge with positive edges weight into the graph.
+     * Inserts a new directed edge with positive edges weight into the graph.
      * Or if an edge between pred and succ already exists, update the data
      * stored in hat edge to be weight.
      * 
@@ -122,7 +122,7 @@ public class BaseGraph <NodeType, EdgeType extends Number> {
     }
     
     /**
-     * Remove an edge from the graph.
+     * Removes an edge from the graph.
      * 
      * @param pred the data item contained in the source node for the edge
      * @param succ the data item contained in the target node for the edge
@@ -146,7 +146,7 @@ public class BaseGraph <NodeType, EdgeType extends Number> {
     }
     
     /**
-     * Check if edge is in the graph.
+     * Checks if edge is in the graph.
      * 
      * @param pred the data item contained in the source node for the edge
      * @param succ the data item contained in the target node for the edge
@@ -158,7 +158,7 @@ public class BaseGraph <NodeType, EdgeType extends Number> {
     }
     
     /**
-     * Return the data associated with a specific edge.
+     * Returns the data associated with a specific edge.
      * 
      * @param pred the data item contained in the source node for the edge
      * @param succ the data item contained in the target node for the edge
@@ -183,7 +183,7 @@ public class BaseGraph <NodeType, EdgeType extends Number> {
     }
 
     /**
-     * Return the number of edges in the graph.
+     * Returns the number of edges in the graph.
      * 
      * @return the number of edges in the graph
      */
